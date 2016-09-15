@@ -1,7 +1,7 @@
 {
-  "name": "markdown-pdf",
+  "name": "markdown-pdf fork",
   "version": "7.0.0",
-  "description": "Markdown to PDF converter",
+  "description": "A fork of the Markdown to PDF converter",
   "main": "index.js",
   "scripts": {
     "test": "standard && istanbul cover node_modules/.bin/tape test/*.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:alanshaw/markdown-pdf.git"
+    "url": "git@github.com:steventhanna/markdown-pdf.git"
   },
   "keywords": [
     "markdown",
@@ -17,8 +17,8 @@
     "convert",
     "template"
   ],
-  "author": "Alan Shaw",
-  "homepage": "https://github.com/alanshaw/markdown-pdf",
+  "author": "Steven Hanan",
+  "homepage": "https://github.com/steventhanna/markdown-pdf/tree/stable",
   "license": "MIT",
   "dependencies": {
     "commander": "^2.2.0",
