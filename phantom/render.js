@@ -39,10 +39,15 @@ page.evaluate(function(cssPaths) {
         var katexAuto = document.createElement('script');
         katexAuto.src = 'https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/contrib/auto-render.min.js';
 
+        var katexInit = document.createElement('script');
+        var node = document.createTextNode("renderMathInElement(document.body);");
+        katexInit.appendChild(node);
+
         head.appendChild(css)
         head.appendChild(katex)
         head.appendChild(katexJS)
         head.appendChild(katexAuto)
+        head.appendChild(katexInit)
     })
 }, [args.cssPath, args.highlightCssPath])
 
