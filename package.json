@@ -1,5 +1,5 @@
 {
-  "name": "markdown-pdf fork",
+  "name": "markdown-pdf-fork",
   "version": "7.0.0",
   "description": "A fork of the Markdown to PDF converter",
   "main": "index.js",
